@@ -39,13 +39,12 @@ function greeting(name) {
   return "Hello, " + name;
 }
 
-
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var greeting = function(name) {
+var newGreeting = function(name) {
   return "Hello, " + name;
 }
 
@@ -54,7 +53,7 @@ var greeting = function(name) {
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-var greeting = (name) => "Hello, " + name;
+var finalGreeting = (name) => "Hello, " + name;
 
 //////////////////PROBLEM 9////////////////////
 
@@ -70,7 +69,7 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog = {name: "Arrow", color: "black and gold", age: 16, goodBoy: true};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
