@@ -35,7 +35,9 @@ var devMountainGoal = null;
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-
+function greeting(name) {
+  return "Hello, " + name;
+}
 
 
 //////////////////PROBLEM 7////////////////////
@@ -43,14 +45,16 @@ var devMountainGoal = null;
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var greeting = function(name) {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+var greeting = (name) => return "Hello, " + name;
 
 //////////////////PROBLEM 9////////////////////
 
