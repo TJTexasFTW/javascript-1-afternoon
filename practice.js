@@ -73,8 +73,7 @@ var dog = {name: "Arrow", color: "black and gold", age: 16, goodBoy: true};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
-
-//Code Here
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 11////////////////////
 
@@ -85,7 +84,16 @@ var dog = {name: "Arrow", color: "black and gold", age: 16, goodBoy: true};
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck(name) {
+  if (name == 'Steven') {
+    return 'What is up Steven?';
+  } else if (name == 'Bryan') {
+    return 'Hey Bryan!';
+  } else {
+    return 'Cool name, ' + name;
+  }    
+  }
+
 
 //////////////////PROBLEM 12////////////////////
 
